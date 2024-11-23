@@ -76,6 +76,10 @@ public class MainActivity extends AppCompatActivity {
             p.setStrokeWidth(10);
             canvas.drawLines(starPoints, p);
 
+            p.setColor(Color.RED);
+            p.setTextSize(36);
+            canvas.drawText("MAK_LAB_7", 600, 400, p);
+
             canvas.restore();
         }
 
